@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API de Indicadores Económicos</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="tarea.css">
+
+</head>
+<body>
+  <div class="container mt-5">
+    <h1><u>API de Indicadores Económicos</u></h1>
+    <div class="form-group">
+      <label for="indicator-selector">Selecciona un indicador:</label>
+      <select class="form-control" id="indicator-selector"></select>
+    </div>
+    <div id="indicator-container"></div>
+   
+    <div class="mt-5">
+      <h2><u>Gráfico del último año</u></h2>
+      <canvas id="chart"></canvas>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js.js"></script>
+  <script src="char.js"></script>
+</body>
+</html>
